@@ -20,7 +20,7 @@ const db = require("./app/models");
 
 db.sequelize.sync();
 // // drop the table if it already exists
- //db.sequelize.sync({ force: true }).then(() => {
+ //db.sequelize.sync({ force: true }).then(() => {   //"when force: true everytime when you run the app a new table will be created"//
    //console.log("Drop and re-sync db.");
  //});
 
